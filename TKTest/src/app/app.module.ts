@@ -7,8 +7,10 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { LobbyPage } from '../pages/lobby-page/lobby-page';
 import { QuestionPage } from '../pages/question-page/question-page';
+import { HistoryPage } from '../pages/history-page/history-page';
 
-let injections: any[]=[MyApp,LobbyPage,QuestionPage]
+
+let injections: any[]=[MyApp,LobbyPage,QuestionPage,HistoryPage]
 
 @NgModule({
   declarations: injections,
